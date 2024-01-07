@@ -1,0 +1,16 @@
+body{   background-color: bisque;
+}
+
+.pokemon{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
+.pokemon .description{
+    padding: 10px;
+    text-align: center;
+}
+
+.pokemon:hover{
+    border: 1px solid blue;
+}
