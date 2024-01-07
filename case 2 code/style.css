@@ -14,3 +14,7 @@ body{   background-color: bisque;
 .pokemon:hover{
     border: 1px solid blue;
 }
+
+a:hover{
+    color: red;
+}
