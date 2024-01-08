@@ -6,7 +6,7 @@ body{   background-color: bisque;
     border: 1px solid black;
     margin: 5px;
 }
-.pokemon .description{
+.pokemon .Name{
     padding: 10px;
     text-align: center;
 }
