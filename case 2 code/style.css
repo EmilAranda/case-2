@@ -1,4 +1,11 @@
 body{   background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+
+
+ul{
+    list-style: square;
 }
 
 .pokemon{
@@ -15,6 +22,16 @@ body{   background-color: bisque;
     border: 1px solid blue;
 }
 
+nav{
+    background-color: rgb(51, 51, 51);
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
 a:hover{
     color: red;
+    text-decoration: underline;
 }
