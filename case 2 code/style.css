@@ -16,12 +16,18 @@ header span{
     background-color: rgba(0, 0, 0, 0.4);
 
 }
-
+h1{
+    padding-top: 2rem;
+}
 ul{
     list-style: square;
 }
 
-.pokemon{
+.container{
+    display:inline-block;
+}
+
+ .pokemon{
     display: inline-block;
     border: 3px solid black;
     margin: 5px;
@@ -60,3 +66,19 @@ a:hover{
     color: red;
     text-decoration: underline;
 }
+
+.flag{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.column{
+    height: 100%;
+}
+
+.blue{background-color: blue;}
+.white{background-color: white;}
+.red{background-color: red;}
